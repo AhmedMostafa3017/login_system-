@@ -1,0 +1,20 @@
+<div class="home">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let item of productArr" >
+      <div class="card">
+        <div class="image">
+          <img [src]="item.image" alt="" />
+        </div>
+        <div class="content">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.description }}</p>
+          <span class="price"> {{ item.price }} EGP</span>
+        </div>
+        <button class="btn btn-primary">Add To Cart</button>
+        <button class="btn btn-danger" (click)="deleteProduct(item.id)">
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

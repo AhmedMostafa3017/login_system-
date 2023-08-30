@@ -1,0 +1,40 @@
+.home{
+  margin-top: 2rem;
+}
+.home .image{
+  display: flex;
+  justify-content: center;
+
+}
+.home img{
+  width:13rem;
+  height: 13rem;
+  /* margin: auto; */
+}
+.home .card{
+border: 1px solid #ccc;
+height: 25rem;
+margin-bottom: 1rem;
+padding: 1rem;
+/* margin-right: 1rem; */
+}
+.home .content h3{
+  font-size: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.home .content p{
+  font-size: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.home .content .price{
+  color: green;
+  font-size: 1.5rem;
+  font-weight: 600;
+
+
+
+}
